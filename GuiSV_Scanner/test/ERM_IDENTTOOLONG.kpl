@@ -1,0 +1,5 @@
+PROGRAM Test2;
+VAR ThisIsAVeryLongIdentifierNameThatExceedsTheMaximumLength: INTEGER;
+BEGIN
+  ThisIsAVeryLongIdentifierNameThatExceedsTheMaximumLength := 100;
+END.

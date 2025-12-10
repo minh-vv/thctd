@@ -1,0 +1,6 @@
+PROGRAM Test1;
+VAR x: INTEGER;
+BEGIN
+  (* This comment is not closed
+  x := 10;
+END.

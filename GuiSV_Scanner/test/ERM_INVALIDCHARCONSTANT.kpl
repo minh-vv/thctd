@@ -1,0 +1,8 @@
+PROGRAM Test3;
+VAR c: CHAR;
+BEGIN
+  c := 'ab';  (* Character constant must be single char *)
+  c := '';    (* Empty character constant *)
+  c := '
+';  (* Unclosed character constant *)
+END.

@@ -1,0 +1,5 @@
+PROGRAM Test1;
+BEGIN
+    (* comment
+    x := 5
+END

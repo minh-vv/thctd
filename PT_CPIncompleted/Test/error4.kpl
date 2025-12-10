@@ -1,0 +1,5 @@
+PROGRAM TestChar;
+CONST
+    letter = 'ab';
+BEGIN
+END.

@@ -1,0 +1,5 @@
+PROGRAM TestConstant;
+CONST
+    c = END;
+BEGIN
+END.

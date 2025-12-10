@@ -1,0 +1,6 @@
+PROGRAM TestSymbol;
+VAR
+    x : INTEGER;
+BEGIN
+    x := 10 @ 5;
+END.

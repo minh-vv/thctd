@@ -1,0 +1,5 @@
+PROGRAM TestType;
+TYPE
+    MyType = PROGRAM;
+BEGIN
+END.
