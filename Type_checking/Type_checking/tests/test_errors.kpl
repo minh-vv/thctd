@@ -1,0 +1,8 @@
+PROGRAM TestErrors;
+VAR i : INTEGER;
+    c : CHAR;
+BEGIN
+  i := c;          (* Error 1 *)
+  i := i + c;      (* Error 2 *)
+  c := 1;          (* Error 3 *)
+END.

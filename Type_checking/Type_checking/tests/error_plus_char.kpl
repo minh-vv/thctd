@@ -1,0 +1,7 @@
+PROGRAM ErrPlusChar;
+VAR C : CHAR;
+    I : INTEGER;
+BEGIN
+  C := 'A';
+  I := +C;
+END.

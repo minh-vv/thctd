@@ -1,0 +1,6 @@
+PROGRAM ErrAssign;
+VAR I : INTEGER;
+    C : CHAR;
+BEGIN
+  I := 'A';
+END.

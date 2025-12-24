@@ -1,0 +1,5 @@
+PROGRAM ErrorConst;
+CONST c1 = 'A';
+      c2 = -c1; { Error: Type mismatch - Unary minus cannot be applied to Char }
+BEGIN
+END.

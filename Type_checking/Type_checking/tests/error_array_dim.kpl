@@ -1,0 +1,5 @@
+PROGRAM ErrArrDim;
+VAR A : ARRAY (. 10 .) OF INTEGER;
+BEGIN
+  A(. 1 .)(. 2 .) := 5;
+END.

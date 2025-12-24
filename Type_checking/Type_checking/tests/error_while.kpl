@@ -1,0 +1,7 @@
+PROGRAM ErrWhile;
+VAR I : INTEGER;
+BEGIN
+  WHILE I = 'A' DO
+  BEGIN
+  END
+END.

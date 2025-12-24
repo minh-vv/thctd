@@ -1,0 +1,11 @@
+PROGRAM TestForError;
+VAR c : CHAR;
+    i : INTEGER;
+BEGIN
+  FOR c := 1 TO 10 DO
+  BEGIN
+  END;
+  FOR i := 'a' TO 'z' DO
+  BEGIN
+  END
+END.

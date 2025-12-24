@@ -1,0 +1,7 @@
+PROGRAM TestForChar;
+VAR c : CHAR;
+BEGIN
+  FOR c := 'a' TO 'z' DO
+  BEGIN
+  END
+END.

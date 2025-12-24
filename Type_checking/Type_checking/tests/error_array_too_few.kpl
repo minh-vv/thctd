@@ -1,0 +1,5 @@
+PROGRAM ErrTooFew;
+VAR A : ARRAY (. 10 .) OF ARRAY (. 5 .) OF INTEGER;
+BEGIN
+  A(. 1 .) := 5;
+END.
