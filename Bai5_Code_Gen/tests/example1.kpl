@@ -1,0 +1,16 @@
+PROGRAM CODEGEN9;  
+TYPE T = INTEGER;
+VAR  S : T;        (* Biến tích lũy tổng *)
+     I : INTEGER;  (* Biến đếm vòng lặp *)
+    
+BEGIN
+	S:=0;           (* Khởi tạo tổng bằng 0 *)
+	I:=1;           (* Khởi tạo biến đếm bắt đầu từ 1 *)
+  WHILE I<=5 DO   (* Lặp khi I vẫn nhỏ hơn hoặc bằng 5 *)
+    BEGIN     
+    S:=S+I*I;     (* Cộng dồn bình phương của I vào S *)
+    I:=I+1;       (* Tăng biến đếm *)
+    END;
+  CALL WRITEI(S); (* In kết quả S ra màn hình *)
+  CALL WRITELN;   (* Xuống dòng *)
+END.
